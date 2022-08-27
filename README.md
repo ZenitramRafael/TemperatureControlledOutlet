@@ -4,7 +4,7 @@ ESP32 code for temperature controlled relay. An outlet controlled by the relay w
 ## Setup
 There may be issues finding the headers for including libraries. The following steps helped me get things working in vscode.
 1. Add the path of the library folder in c_cpp_properties include path.
-'"includePath": [
+    - '"includePath": [
                 "${workspaceFolder}/**",
                 "C:/Users/zenit/Documents/Arduino/libraries/DHT-sensor-library-master/"
             ]'
