@@ -1,7 +1,4 @@
-#include <Adafruit_Sensor.h>
-
-#include <DHT.h>
-#include <DHT_U.h>
+//#include <Adafruit_Sensor.h>
 
 // Example testing sketch for various DHT humidity/temperature sensors written by ladyada
 // REQUIRES the following Arduino libraries:
