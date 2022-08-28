@@ -8,6 +8,10 @@ DHT dht(DHTPIN, DHTTYPE);
 const float KickOnTemp = 78.0;
 const float KickOffTemp = 76.0;
 
+unsigned long seconds = 1000L; // !!! SEE THE CAPITAL "L" USED!!!
+unsigned long minutes = seconds * 60;
+
+
 void setup() {
     Serial.begin(9600);
     Serial.println(F("DHTxx test!"));
@@ -53,9 +57,11 @@ void loop() {
     if (TempBelowKickOffTemp(f))
     {
         AcOn(false);
+        delay(3 * minutes);
     }
     else if (TempAboveKickOnTemp(f)) {
         AcOn(true);
+        delay(3 * minutes);
     }
     
 }
