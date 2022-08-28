@@ -36,8 +36,8 @@
             "includePath": [
                 "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino",
                 "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\variants\\standard",
-                "C:\\Users\\zenit\\Documents\\Arduino\\libraries\\DHT-sensor-library-master",
-                "C:\\Users\\zenit\\Documents\\Arduino\\libraries\\Adafruit_Sensor-master",
+                "C:\\Users\\ralph\\Documents\\Arduino\\libraries\\DHT-sensor-library-master",
+                "C:\\Users\\ralph\\Documents\\Arduino\\libraries\\Adafruit_Unified_Sensor",
                 "c:\\program files (x86)\\arduino\\hardware\\tools\\avr\\lib\\gcc\\avr\\7.3.0\\include",
                 "c:\\program files (x86)\\arduino\\hardware\\tools\\avr\\lib\\gcc\\avr\\7.3.0\\include-fixed",
                 "c:\\program files (x86)\\arduino\\hardware\\tools\\avr\\avr\\include"

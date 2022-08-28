@@ -67,7 +67,7 @@ void loop() {
 }
 
 bool TempBelowKickOffTemp(float f) {
-    if (hif <= KickOffTemp)
+    if (f <= KickOffTemp)
     {
         return true;
     }
@@ -75,7 +75,7 @@ bool TempBelowKickOffTemp(float f) {
 }
 
 bool TempAboveKickOnTemp(float f) {
-    if (hif >= KickOnTemp)
+    if (f >= KickOnTemp)
     {
         return true;
     }
